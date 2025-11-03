@@ -31,16 +31,24 @@ buymove/
 
 ## Como executar o back-end
 
-1. Instale as dependências a partir da pasta `buymove`:
+1. (Opcional, mas recomendado) Crie e ative um ambiente virtual na raiz do repositório:
+
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # Linux/macOS
+   # .venv\Scripts\activate  # Windows PowerShell
+   ```
+
+2. Instale as dependências a partir da pasta `buymove`:
 
    ```bash
    cd buymove
    pip install -r requirements.txt
    ```
 
-2. Defina as variáveis de ambiente se necessário (por padrão o projeto usa `mongodb://localhost:27017` e o banco `buymove`).
+3. Defina as variáveis de ambiente se necessário (por padrão o projeto usa `mongodb://localhost:27017` e o banco `buymove`).
 
-3. Inicie a API:
+4. Inicie a API:
 
    ```bash
    uvicorn backend.main:app --reload
