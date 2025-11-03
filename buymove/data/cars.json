@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "modelo": "Model S",
+    "marca": "Tesla",
+    "ano": 2022,
+    "preco": 79999.99,
+    "imagem": "https://example.com/images/model_s.jpg",
+    "descricao": "Sedan elétrico de alto desempenho com autonomia estendida."
+  },
+  {
+    "id": "2",
+    "modelo": "Civic",
+    "marca": "Honda",
+    "ano": 2021,
+    "preco": 24999.5,
+    "imagem": "https://example.com/images/civic.jpg",
+    "descricao": "Sedan confiável e eficiente, ideal para o dia a dia."
+  },
+  {
+    "id": "3",
+    "modelo": "Mustang",
+    "marca": "Ford",
+    "ano": 2020,
+    "preco": 55999.0,
+    "imagem": "https://example.com/images/mustang.jpg",
+    "descricao": "Cupê esportivo com motor V8 potente e design clássico."
+  }
+]
