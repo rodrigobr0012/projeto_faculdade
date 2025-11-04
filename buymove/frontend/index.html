@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuyMove - Loja de Carros Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BuyMove</h1>
+    <p>Encontre o carro perfeito para você</p>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <input id="search-input" type="text" placeholder="Busque por modelo ou marca">
+      <button id="search-button">Buscar</button>
+    </section>
+
+    <section id="cars-container" class="cars-container">
+      <!-- Cards dos carros serão inseridos aqui dinamicamente -->
+    </section>
+  </main>
+
+  <template id="car-card-template">
+    <article class="car-card">
+      <img src="" alt="Imagem do carro" class="car-image">
+      <div class="car-info">
+        <h2 class="car-model"></h2>
+        <p class="car-brand"></p>
+        <p class="car-year"></p>
+        <p class="car-price"></p>
+        <p class="car-description"></p>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
