@@ -39,11 +39,11 @@ buymove/
    # .venv\Scripts\activate  # Windows PowerShell
    ```
 
-2. Instale as dependências a partir da pasta `buymove`:
+2. Instale (ou reinstale, se já tiver criado o ambiente antes) as dependências a partir da pasta `buymove`:
 
    ```bash
    cd buymove
-   pip install -r requirements.txt
+   pip install --upgrade -r requirements.txt
    ```
 
 3. Defina as variáveis de ambiente se necessário (por padrão o projeto usa `mongodb://localhost:27017` e o banco `buymove`).
